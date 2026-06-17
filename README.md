@@ -12,8 +12,8 @@ This repository is the main entry point for the ZSphere open-source project. It 
 
 ## ZSphere Website
 
-- Official Website: https://zsphere.aliyun.com
-- Product Documentation: https://www.zstack.io/help/zstack_zsphere
+- [Community Website](https://zsphere.aliyun.com/)
+- [Product Documentation](https://www.zstack.io/help/zstack_zsphere)
 
 ## Architecture
 
@@ -28,55 +28,23 @@ Core areas include:
 - **Extension modules**: enterprise-oriented capabilities for operations, diagnostics, migration, disaster recovery, and advanced scenarios.
 - **Utilities and integrations**: installation tools, diagnostics tools, migration helpers, automation scripts, SDKs, and external integrations.
 
+  <img width="1200" height="607" alt="image" src="https://github.com/user-attachments/assets/a54b9620-55eb-40b3-ac76-24516531635c" />
+
 ## Installation Guide
 
 The public installation guide is maintained in the ZSphere product documentation.
-
-- Installation Guide: https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html
-
-Before installation, please review the documentation for:
-
-- Hardware and software requirements
-- Network planning
-- Storage planning
-- Management node deployment
-- Host preparation
-- Initial system configuration
-
-A minimal open-source installation guide will be added to this repository before the official open-source release.
+- [Installation Guide](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
 
 ## Quick Start
 
 The quick start guide is intended to help users set up a minimal ZSphere environment and create the first virtual machine.
-
-Planned quick start flow:
-
-1. Prepare hosts, network, and storage resources.
-2. Install and initialize the ZSphere management service.
-3. Add compute hosts and storage resources.
-4. Configure network resources.
-5. Upload or register an image.
-6. Create and start a virtual machine.
-7. Verify console access, network connectivity, and basic operations.
-
-Quick Start documentation:
-
-https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html
+- [Quick Start](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
 
 ## VMware Migration Guide
 
-ZSphere provides migration-oriented capabilities and operational tools for users who need to move workloads from existing virtualization environments.
+As enterprises reassess their virtualization strategies, migration from VMware to alternative platforms has become an important topic for organizations seeking cost control, infrastructure flexibility, and long-term operational stability. ZSphere provides migration-oriented capabilities and operational tools to help users evaluate, plan, and move workloads from existing VMware environments to ZStack-based virtualization infrastructure.
 
-The VMware migration guide will cover:
-
-- Migration assessment and preparation
-- Source VMware environment requirements
-- Network and storage mapping
-- VM migration workflow
-- Post-migration validation
-- Rollback and risk handling
-
-Documentation will be added as the open-source migration tools and guides are prepared.
+- [VMware Migration Guide](https://www.zstack.io/thesolution/virtualization/)
 
 ## Project Repositories
 
@@ -100,18 +68,6 @@ Before contributing, please read:
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - [GOVERNANCE.md](GOVERNANCE.md)
 - [SECURITY.md](SECURITY.md)
-
-## License
-
-ZSphere is planned to use the Apache License 2.0 unless otherwise specified.
-
-Each repository contains its own license file. Please check the `LICENSE` file in the corresponding repository.
-
-## Security
-
-If you believe you have found a security vulnerability, please do not open a public issue.
-
-Please follow the instructions in [SECURITY.md](SECURITY.md).
 
 ## Open Source Preview Notice
 
