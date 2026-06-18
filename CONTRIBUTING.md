@@ -194,12 +194,4 @@ By contributing to this project, you agree that your contributions will be licen
 
 This project is currently planned to use the GNU General Public License v3.0. Some repositories or components may include third-party open-source software under different licenses. Please check the `LICENSE`, `NOTICE`, and related files in each repository for details.
 
-## Community
-
-Community discussions are welcome.
-
-- Discussions: https://github.com/orgs/zsphereio/discussions
-- Product Documentation: https://www.zstack.io/help/zstack_zsphere
-- Community Website: https://zsphere.aliyun.com/
-
 Thank you for helping improve ZSphere.
