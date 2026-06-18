@@ -59,13 +59,11 @@ As enterprises reassess their virtualization strategies, migration from VMware t
 
 ## Project Repositories
 
-| Repository | Description | Status |
-|---|---|---|
-| [zsphere](https://github.com/zsphereio/zsphere) | Project entry, documentation, roadmap, and community resources | Preview |
-| [zstack](https://github.com/zsphereio/zstack) | Core IaaS engine and cloud infrastructure foundation of ZSphere | Preview |
-| [premium](https://github.com/zsphereio/premium) | Extension modules for enterprise operations and advanced scenarios | Preview |
-| [zstack-utility](https://github.com/zsphereio/zstack-utility) | Tools for installation, diagnostics, migration, and operations | Preview |
-| [community](https://github.com/zsphereio/community) | Community discussions, proposals, governance, and public resources | Preview |
+| Repository | Description |
+|---|---|
+| [zstack](https://github.com/zsphereio/zstack) | Core IaaS engine and cloud infrastructure foundation of ZSphere |
+| [premium](https://github.com/zsphereio/premium) | Extension modules for enterprise operations and advanced scenarios |
+| [zstack-utility](https://github.com/zsphereio/zstack-utility) | Tools for installation, diagnostics, migration, and operations |
 
 
 ## Roadmap
