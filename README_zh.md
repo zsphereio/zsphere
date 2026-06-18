@@ -1,16 +1,13 @@
+下面是对应的 README_zh.md，结构和英文版保持一致，可以直接用。
 # ZSphere
 
-ZStack ZSphere 是一款面向下一代服务器虚拟化场景的平台，基于高性能、高安全、高可靠和持续创新的核心理念构建。ZSphere 融合服务器虚拟化、网络虚拟化、存储虚拟化与智能运维能力，帮助用户构建和管理现代化虚拟化基础设施。
+> [English](README.md) | 中文
 
-## Zphere项目介绍
+ZStack ZSphere 是一款面向私有云、服务器虚拟化和企业级云管理场景的下一代服务器虚拟化平台。ZSphere 基于高性能、高安全、高可靠和持续创新的核心理念构建，融合服务器虚拟化、网络虚拟化、存储虚拟化与智能运维能力，帮助组织构建和运维现代化虚拟化基础设施。
 
-ZSphere 是面向私有云、服务器虚拟化和企业级云管理场景的开放基础设施平台。
+本仓库是 ZSphere 开源项目的主入口，提供项目概览、文档链接、仓库索引、贡献指南、路线图、治理机制和社区资源。
 
-ZSphere 适用于需要构建和运维现代化虚拟化基础设施的组织，提供对计算、网络、存储、镜像、虚拟机、权限、告警、审计和运维流程的统一管理能力。
-
-本仓库是 ZSphere 开源项目的主入口，提供项目介绍、文档链接、仓库索引、贡献指南、路线图、治理机制和社区资源。
-
-## ZSphere 网站
+## 资源入口
 
 - [社区网站](https://zsphere.aliyun.com/)
 - [产品文档](https://www.zstack.io/help/zstack_zsphere)
@@ -28,20 +25,19 @@ ZSphere 采用模块化架构，围绕虚拟化能力、资源管理、扩展模
 - **扩展模块**：面向企业运维、诊断、迁移、灾备和高级场景的扩展能力。
 - **工具与集成**：安装工具、诊断工具、迁移工具、自动化脚本、SDK 和外部系统集成。
 
-<img width="1200" height="607" alt="image" src="https://github.com/user-attachments/assets/d64e3013-b18c-48d3-83ac-27ba43ad81ba" />
-
-
-## 安装指南
-
-ZSphere 安装指南维护在产品文档中。
-
-- [安装指南](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
+<img width="1200" height="607" alt="image" src="https://github.com/user-attachments/assets/a54b9620-55eb-40b3-ac76-24516531635c" />
 
 ## 快速开始
 
-快速开始指南用于帮助用户部署一个最小 ZSphere 环境，并创建第一台虚拟机。
+评估 ZSphere 的最快方式是参考产品文档中的快速开始指南。该指南将帮助你准备计算、网络和存储资源，初始化管理服务，并创建第一台虚拟机。
 
 - [快速开始](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
+
+## 安装指南
+
+ZSphere 的公开安装指南维护在产品文档中。
+
+- [安装指南](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
 
 ## VMware 迁移指南
 
@@ -61,6 +57,20 @@ ZSphere 安装指南维护在产品文档中。
 
 > 当前这些仓库维护在 `zsphereio` 下，作为开源预览版本。审核通过后，项目预计发布到 Alibaba GitHub Organization 下。
 
+## 路线图
+
+ZSphere 路线图用于展示后续项目计划、阶段性里程碑、功能跟踪和开源发布准备工作。
+
+当前路线图请参考 [ROADMAP.md](ROADMAP.md)。
+
+## 项目治理
+
+ZSphere 采用轻量级开源治理模式，用于说明项目如何维护、如何决策，以及贡献者如何参与协作。
+
+[GOVERNANCE.md](GOVERNANCE.md) 是了解项目角色、维护者职责、决策流程、版本发布和社区协作方式的入口。
+
+随着社区发展，ZSphere 的治理模式可能逐步演进，引入维护者、工作组和更正式的项目流程。
+
 ## 参与贡献
 
 欢迎用户、开发者、合作伙伴和基础设施团队参与 ZSphere 项目。
@@ -68,10 +78,13 @@ ZSphere 安装指南维护在产品文档中。
 贡献前请阅读：
 
 - [CONTRIBUTING.md](CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- [GOVERNANCE.md](GOVERNANCE.md)
-- [SECURITY.md](SECURITY.md)
 
-## 开源预览说明
+## 安全
 
-本仓库属于 ZSphere 开源预览的一部分。在正式发布到 Alibaba GitHub Organization 前，仓库命名、模块边界、文档和发布流程可能会继续调整。
+安全漏洞报告流程请参考 [SECURITY.md](SECURITY.md)。
+
+## 开源协议
+
+ZSphere 采用 [GNU General Public License v3.0](LICENSE) 开源协议。
+
+部分仓库或组件可能包含不同许可证的第三方开源软件，请以各仓库中的 `LICENSE`、`NOTICE` 及相关文件为准。
