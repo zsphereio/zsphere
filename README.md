@@ -2,17 +2,11 @@
 
 > English | [中文](README_zh.md)
 
-ZStack ZSphere is a next-generation server virtualization platform built on the principles of high performance, strong security, high reliability, and continuous innovation. It integrates server, network, and storage virtualization with intelligent operations capabilities to help users build and manage modern virtualization infrastructure.
-
-## What is ZSphere?
-
-ZSphere is an open infrastructure platform for private cloud, server virtualization, and enterprise cloud management.
-
-It is designed for organizations that need to build and operate modern virtualization infrastructure with unified management of compute, network, storage, images, virtual machines, permissions, alarms, auditing, and operations workflows.
+ZStack ZSphere is a next-generation server virtualization platform for private cloud, server virtualization, and enterprise cloud management. Built on the principles of high performance, strong security, high reliability, and continuous innovation, it integrates server, network, and storage virtualization with intelligent operations capabilities to help organizations build and operate modern virtualization infrastructure.
 
 This repository is the main entry point for the ZSphere open-source project. It provides project overview, documentation links, repository index, contribution guidelines, roadmap, governance, and community resources.
 
-## ZSphere Website
+## Resources
 
 - [Community Website](https://zsphere.aliyun.com/)
 - [Product Documentation](https://www.zstack.io/help/zstack_zsphere)
