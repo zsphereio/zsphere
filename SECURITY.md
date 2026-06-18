@@ -37,11 +37,10 @@ Please avoid sharing secrets, private keys, passwords, customer data, or unrelat
 
 This security policy applies to ZSphere community repositories under the `zsphereio` organization, including but not limited to:
 
-- `zsphere`
 - `zstack`
 - `premium`
 - `zstack-utility`
-- `community`
+- `...`
 
 Some repositories or components may have their own security policy. If a repository contains a separate `SECURITY.md`, please follow the policy in that repository.
 
