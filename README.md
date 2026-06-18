@@ -30,17 +30,19 @@ Core areas include:
 - **Extension modules**: enterprise-oriented capabilities for operations, diagnostics, migration, disaster recovery, and advanced scenarios.
 - **Utilities and integrations**: installation tools, diagnostics tools, migration helpers, automation scripts, SDKs, and external integrations.
 
-  <img width="1200" height="607" alt="image" src="https://github.com/user-attachments/assets/a54b9620-55eb-40b3-ac76-24516531635c" />
-
-## Installation Guide
-
-The public installation guide is maintained in the ZSphere product documentation.
-- [Installation Guide](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
+<img width="1200" height="607" alt="image" src="https://github.com/user-attachments/assets/a54b9620-55eb-40b3-ac76-24516531635c" />
 
 ## Quick Start
 
-The quick start guide is intended to help users set up a minimal ZSphere environment and create the first virtual machine.
+The fastest way to evaluate ZSphere is to follow the quick start guide in the product documentation. It walks you through preparing compute, network, and storage resources, initializing the management service, and creating your first virtual machine.
+
 - [Quick Start](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
+
+## Installation
+
+The public installation guide is maintained in the ZSphere product documentation.
+
+- [Installation Guide](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
 
 ## VMware Migration Guide
 
@@ -60,6 +62,20 @@ As enterprises reassess their virtualization strategies, migration from VMware t
 
 > These repositories are currently maintained under `zsphereio` as an open-source preview. After review and approval, the project is expected to be published under the Alibaba GitHub organization.
 
+## Roadmap
+
+The ZSphere roadmap provides information about upcoming project work, planned milestones, feature tracking, and open-source release preparation.
+
+See [ROADMAP.md](ROADMAP.md) for the current roadmap.
+
+## Governance
+
+ZSphere is governed by a lightweight open-source governance model that defines how the project is maintained, how decisions are made, and how contributors collaborate.
+
+The [GOVERNANCE.md](GOVERNANCE.md) document is the starting point for learning about project roles, maintainer responsibilities, decision-making processes, release management, and community collaboration.
+
+As the community grows, the governance model may evolve to include dedicated maintainers, working groups, and more formal project processes.
+
 ## Contributing
 
 We welcome contributions from users, developers, partners, and infrastructure teams.
@@ -67,10 +83,13 @@ We welcome contributions from users, developers, partners, and infrastructure te
 Before contributing, please read:
 
 - [CONTRIBUTING.md](CONTRIBUTING.md)
-- [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
-- [GOVERNANCE.md](GOVERNANCE.md)
-- [SECURITY.md](SECURITY.md)
 
-## Open Source Preview Notice
+## Security
 
-This repository is part of the ZSphere open-source preview. Repository names, module boundaries, documentation, and release processes may be adjusted before the official open-source publication under the Alibaba GitHub organization.
+The security process for reporting vulnerabilities is described in [SECURITY.md](SECURITY.md).
+
+## License
+
+ZSphere is licensed under the [GNU General Public License v3.0](LICENSE).
+
+Some repositories or components may include third-party open-source software under different licenses. Please check the `LICENSE`, `NOTICE`, and related files in each repository for details.
