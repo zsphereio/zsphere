@@ -60,15 +60,11 @@ ZSphere 的公开安装指南维护在产品文档中。
 
 ## 项目仓库
 
-| 仓库 | 说明 | 状态 |
-|---|---|---|
-| [zsphere](https://github.com/zsphereio/zsphere) | 项目主入口、文档、路线图和社区资源 | Preview |
-| [zstack](https://github.com/zsphereio/zstack) | ZSphere 的核心 IaaS 引擎和云基础设施底座 | Preview |
-| [premium](https://github.com/zsphereio/premium) | 面向企业运维和高级场景的扩展模块 | Preview |
-| [zstack-utility](https://github.com/zsphereio/zstack-utility) | 安装、诊断、迁移和运维工具 | Preview |
-| [community](https://github.com/zsphereio/community) | 社区讨论、提案、治理和公共资源 | Preview |
-
-> 当前这些仓库维护在 `zsphereio` 下，作为开源预览版本。审核通过后，项目预计发布到 Alibaba GitHub Organization 下。
+| 仓库 | 说明 |
+|---|---|
+| [zstack](https://github.com/zsphereio/zstack) | ZSphere 的核心 IaaS 引擎和云基础设施底座 |
+| [premium](https://github.com/zsphereio/premium) | 面向企业运维和高级场景的扩展模块 |
+| [zstack-utility](https://github.com/zsphereio/zstack-utility) | 用于安装、诊断、迁移和运维的工具集合 |
 
 ## 路线图
 
