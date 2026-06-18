@@ -1,5 +1,7 @@
 # ZSphere
 
+> English | [中文](README_zh.md)
+
 ZStack ZSphere is a next-generation server virtualization platform built on the principles of high performance, strong security, high reliability, and continuous innovation. It integrates server, network, and storage virtualization with intelligent operations capabilities to help users build and manage modern virtualization infrastructure.
 
 ## What is ZSphere?
