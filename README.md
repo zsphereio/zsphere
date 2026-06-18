@@ -2,7 +2,7 @@
 
 > English | [中文](README_zh.md)
 
-ZStack ZSphere is a next-generation server virtualization platform for private cloud, server virtualization, and enterprise cloud management. Built on the principles of high performance, strong security, high reliability, and continuous innovation, it integrates server, network, and storage virtualization with intelligent operations capabilities to help organizations build and operate modern virtualization infrastructure.
+ZSphere is a next-generation server virtualization platform for private cloud, server virtualization, and enterprise cloud management. Built on the principles of high performance, strong security, high reliability, and continuous innovation, it integrates server, network, and storage virtualization with intelligent operations capabilities to help organizations build and operate modern virtualization infrastructure.
 
 This repository is the main entry point for the ZSphere open-source project. It provides project overview, documentation links, repository index, contribution guidelines, roadmap, governance, and community resources.
 
@@ -24,7 +24,20 @@ Core areas include:
 - **Extension modules**: enterprise-oriented capabilities for operations, diagnostics, migration, disaster recovery, and advanced scenarios.
 - **Utilities and integrations**: installation tools, diagnostics tools, migration helpers, automation scripts, SDKs, and external integrations.
 
-<img width="1200" height="607" alt="image" src="https://github.com/user-attachments/assets/a54b9620-55eb-40b3-ac76-24516531635c" />
+Software Architecture:
+
+ZSphere emphasizes asynchronous execution, stateless services, plugin-based extension, and automation in its software architecture, improving system scalability, reliability, and maintainability.
+
+- **Fully asynchronous architecture**: Supports asynchronous messaging, asynchronous methods, and asynchronous HTTP calls to reduce blocking waits and improve system throughput.
+- **Stateless services**: Each request is processed independently without relying on the state of other requests, making service scaling, failure recovery, and horizontal expansion easier.
+- **Lock-free architecture**: Reduces dependency on centralized locks through mechanisms such as consistent hashing, improving concurrent processing capability.
+- **In-process microservices**: Decouples services within the same process to reduce module coupling while maintaining high execution efficiency.
+- **Fully plugin-based structure**: Uses a plugin mechanism to support horizontal extension of resource types, business capabilities, and integrations.
+- **Workflow engine**: Manages the execution order of complex operations and supports rollback and recovery in error scenarios.
+- **Tag system**: Extends resource attributes and business logic, making resource classification, querying, orchestration, and automation easier.
+- **Cascade architecture**: Supports cascading operations across resources, suitable for resource creation, deletion, recycling, and dependency handling.
+- **Fully automated deployment**: Provides Ansible-based agentless automated deployment to reduce deployment and operations complexity.
+- **Full API query capability**: Supports unified querying of resources and their attributes, enabling automation, system integration, and upper-layer platform access.
 
 ## Quick Start
 
@@ -54,7 +67,6 @@ As enterprises reassess their virtualization strategies, migration from VMware t
 | [zstack-utility](https://github.com/zsphereio/zstack-utility) | Tools for installation, diagnostics, migration, and operations | Preview |
 | [community](https://github.com/zsphereio/community) | Community discussions, proposals, governance, and public resources | Preview |
 
-> These repositories are currently maintained under `zsphereio` as an open-source preview. After review and approval, the project is expected to be published under the Alibaba GitHub organization.
 
 ## Roadmap
 
