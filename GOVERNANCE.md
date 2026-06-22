@@ -2,7 +2,6 @@
 
 This document describes how the ZSphere project is governed, maintained, and developed.
 
-ZSphere is currently maintained as an open-source preview under the Alibaba organization.
 
 ## Goals
 
@@ -165,9 +164,9 @@ Community collaboration may happen through:
 
 Community links:
 
-- Discussions: https://github.com/orgs/zsphereio/discussions
-- Community Website: https://zsphere.aliyun.com/
-- Product Documentation: https://www.zstack.io/help/zstack_zsphere
+[Discussions](https://github.com/orgs/zsphereio/discussions) |
+[Community Website](https://zsphere.aliyun.com/) |
+[Product Documentation](https://www.zstack.io/help/zstack_zsphere)
 
 ## Code of Conduct
 
