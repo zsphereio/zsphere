@@ -49,9 +49,9 @@ ZSphere 在软件架构上强调异步化、无状态化、插件化和自动化
 
 ## 安装指南
 
-ZSphere 的公开安装指南维护在产品文档中。
+安装指南将提供 ZSphere 的环境准备、部署流程、节点配置、服务启动和安装验证等内容，帮助用户完成从基础环境到可用平台的部署。
 
-- [安装指南](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
+- [安装指南](https://zsphere.aliyun.com/docs/installation/)
 
 ## VMware 迁移指南
 
