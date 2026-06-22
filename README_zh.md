@@ -1,16 +1,18 @@
 <div align="center">
   <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="120">
 
+  <h1>ZSphere</h1>
+
   <p><strong>面向私有云和企业虚拟化场景的新一代服务器虚拟化平台</strong></p>
 
-  <p>
-    <a href="https://zsphere.aliyun.com/">官网</a> •
-    <a href="https://www.zstack.io/help/zstack_zsphere">文档</a> •
-    <a href="#快速开始">快速开始</a> •
-    <a href="#架构设计">架构设计</a> •
-    <a href="#路线图">路线图</a> •
-    <a href="#参与贡献">参与贡献</a>
-  </p>
+<p>
+  <a href="#资源入口">资源入口</a> •
+  <a href="#架构设计">架构设计</a> •
+  <a href="#快速开始">快速开始</a> •
+  <a href="#安装指南">安装指南</a> •
+  <a href="#路线图">路线图</a> •
+  <a href="#参与贡献">参与贡献</a>
+</p>
 
   <p>
     <a href="README.md">English</a> | 简体中文
