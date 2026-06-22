@@ -38,6 +38,8 @@ ZSphere emphasizes asynchronous execution, stateless services, plugin-based exte
 - **Cascade architecture**: Supports cascading operations across resources, suitable for resource creation, deletion, recycling, and dependency handling.
 - **Fully automated deployment**: Provides Ansible-based agentless automated deployment to reduce deployment and operations complexity.
 - **Full API query capability**: Supports unified querying of resources and their attributes, enabling automation, system integration, and upper-layer platform access.
+<img width="1400" height="1700" alt="image" src="https://github.com/user-attachments/assets/40fa8206-47e6-4da8-81e7-1139658672a5" />
+
 
 ## Quick Start
 
