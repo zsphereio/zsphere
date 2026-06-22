@@ -50,7 +50,7 @@ ZSphere 采用模块化架构，围绕虚拟化资源管理、管理平面、扩
 - **工作流引擎**：管理复杂操作的执行顺序，并在异常场景下支持回滚和恢复。
 - **标签与查询能力**：支持资源属性扩展、资源分类、统一查询和自动化编排。
 - **自动化部署**：基于自动化工具完成部署、配置和运维任务，降低部署和维护复杂度。
-<img width="3500" height="4250" alt="zsphere-architecture-detailed" src="https://github.com/user-attachments/assets/c558f6eb-0444-4c08-8999-d7b1cf51554b" />
+<img width="3500" height="4250" alt="zsphere-architecture-detailed" src="https://github.com/user-attachments/assets/d40c25e8-7a7b-40ba-b668-1587ffd2f590" />
 
 
 ## 快速开始
