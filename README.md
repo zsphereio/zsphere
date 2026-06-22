@@ -1,13 +1,15 @@
 <div align="center">
   <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="120">
 
+  <h1>ZSphere</h1>
+
   <p><strong>Next-generation server virtualization platform for private cloud and enterprise virtualization.</strong></p>
 
   <p>
-    <a href="https://zsphere.aliyun.com/">Website</a> •
-    <a href="https://www.zstack.io/help/zstack_zsphere">Doc</a> •
-    <a href="#quick-start">Quick Start</a> •
+    <a href="#resources">Resources</a> •
     <a href="#architecture">Architecture</a> •
+    <a href="#quick-start">Quick Start</a> •
+    <a href="#installation">Installation</a> •
     <a href="#roadmap">Roadmap</a> •
     <a href="#contributing">Contributing</a>
   </p>
