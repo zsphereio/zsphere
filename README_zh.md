@@ -5,7 +5,7 @@
 
   <p>
     <a href="https://zsphere.aliyun.com/">官网</a> •
-    <a href="https://www.zstack.io/help/zstack_zsphere">产品文档</a> •
+    <a href="https://www.zstack.io/help/zstack_zsphere">文档</a> •
     <a href="#快速开始">快速开始</a> •
     <a href="#架构设计">架构设计</a> •
     <a href="#路线图">路线图</a> •
@@ -55,8 +55,8 @@ ZSphere 在软件架构上强调异步化、无状态化、插件化和自动化
 - **瀑布流架构**：支持资源级联操作，适用于资源创建、删除、回收和依赖关系处理等场景。
 - **全自动化部署**：基于 Ansible 的无代理自动化部署能力，降低部署和运维复杂度。
 - **全 API 查询**：支持对资源及其属性进行统一查询，便于自动化运维、系统集成和上层平台调用。
+<img width="3500" height="4250" alt="zsphere-architecture-detailed" src="https://github.com/user-attachments/assets/c558f6eb-0444-4c08-8999-d7b1cf51554b" />
 
-<img width="1400" height="1700" alt="ZSphere Architecture" src="https://github.com/user-attachments/assets/40fa8206-47e6-4da8-81e7-1139658672a5" />
 
 ## 快速开始
 
