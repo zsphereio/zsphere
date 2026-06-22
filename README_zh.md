@@ -1,14 +1,31 @@
-# ZSphere
+<div align="center">
+  <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="120">
 
-> [English](README.md) | 中文
+  <p><strong>面向私有云和企业虚拟化场景的新一代服务器虚拟化平台。</strong></p>
 
-ZSphere 是一款面向私有云、服务器虚拟化和企业级云管理场景的下一代服务器虚拟化平台。ZSphere 基于高性能、高安全、高可靠和持续创新的核心理念构建，融合计算虚拟化、网络虚拟化、存储虚拟化与智能运维能力，帮助组织构建和运维现代化虚拟化基础设施。
+  <p>
+    <a href="https://zsphere.aliyun.com/">官网</a> •
+    <a href="https://www.zstack.io/help/zstack_zsphere">产品文档</a> •
+    <a href="#快速开始">快速开始</a> •
+    <a href="#架构设计">架构设计</a> •
+    <a href="#路线图">路线图</a> •
+    <a href="#参与贡献">参与贡献</a>
+  </p>
 
-本仓库是 ZSphere 开源项目的主入口，提供项目概览、文档链接、仓库索引、贡献指南等。
+  <p>
+    <a href="README.md">English</a> | 简体中文
+  </p>
+</div>
+
+## 项目介绍
+
+ZSphere 是面向私有云、服务器虚拟化和企业云管理场景的新一代服务器虚拟化平台。ZSphere 基于高性能、高安全、高可靠和持续创新的核心理念，融合服务器、网络、存储虚拟化能力与智能运维能力，帮助组织构建和运营现代化虚拟化基础设施。
+
+本仓库是 ZSphere 开源项目的主入口，提供项目概览、文档链接、仓库索引、贡献指南、路线图、治理机制和社区资源。
 
 ## 资源入口
 
-- [社区网站](https://zsphere.aliyun.com/)
+- [社区官网](https://zsphere.aliyun.com/)
 - [产品文档](https://www.zstack.io/help/zstack_zsphere)
 
 ## 架构设计
@@ -24,7 +41,7 @@ ZSphere 采用模块化架构，围绕虚拟化能力、资源管理、扩展模
 - **扩展模块**：面向企业运维、诊断、迁移、灾备和高级场景的扩展能力。
 - **工具与集成**：安装工具、诊断工具、迁移工具、自动化脚本、SDK 和外部系统集成。
 
-软件架构特点：
+软件架构特性：
 
 ZSphere 在软件架构上强调异步化、无状态化、插件化和自动化，提升系统的可扩展性、可靠性和可维护性。
 
@@ -38,12 +55,12 @@ ZSphere 在软件架构上强调异步化、无状态化、插件化和自动化
 - **瀑布流架构**：支持资源级联操作，适用于资源创建、删除、回收和依赖关系处理等场景。
 - **全自动化部署**：基于 Ansible 的无代理自动化部署能力，降低部署和运维复杂度。
 - **全 API 查询**：支持对资源及其属性进行统一查询，便于自动化运维、系统集成和上层平台调用。
-<img width="1400" height="1700" alt="image" src="https://github.com/user-attachments/assets/28b3956b-3a66-4006-b386-7342cf0ad624" />
 
-  
+<img width="1400" height="1700" alt="ZSphere Architecture" src="https://github.com/user-attachments/assets/40fa8206-47e6-4da8-81e7-1139658672a5" />
+
 ## 快速开始
 
-评估 ZSphere 的最快方式是参考产品文档中的快速开始指南。该指南将帮助你准备计算、网络和存储资源，初始化管理服务，并创建第一台虚拟机。
+评估 ZSphere 的最快方式是参考快速开始文档。该文档将帮助你完成计算、网络和存储资源准备，初始化管理服务，并创建第一台虚拟机。
 
 - [快速开始](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
 
@@ -55,7 +72,7 @@ ZSphere 在软件架构上强调异步化、无状态化、插件化和自动化
 
 ## VMware 迁移指南
 
-随着企业重新评估虚拟化基础设施策略，从 VMware 迁移到其他平台已成为许多组织在成本控制、基础设施灵活性和长期运维稳定性方面的重要议题。ZSphere 提供面向迁移场景的能力和运维工具，帮助用户评估、规划并将现有 VMware 环境中的工作负载迁移到基于 ZStack 的虚拟化基础设施。
+随着企业重新评估虚拟化基础设施策略，从 VMware 迁移到替代平台已经成为许多组织关注的重要方向。对于希望控制成本、提升基础设施灵活性并保障长期运维稳定性的用户，ZSphere 提供面向迁移场景的能力和运维工具，帮助用户评估、规划并将现有 VMware 环境中的工作负载迁移到基于 ZStack 的虚拟化基础设施。
 
 - [VMware 迁移指南](https://www.zstack.io/thesolution/virtualization/)
 
@@ -65,21 +82,21 @@ ZSphere 在软件架构上强调异步化、无状态化、插件化和自动化
 |---|---|
 | [zstack](https://github.com/zsphereio/zstack) | ZSphere 的核心 IaaS 引擎和云基础设施底座 |
 | [premium](https://github.com/zsphereio/premium) | 面向企业运维和高级场景的扩展模块 |
-| [zstack-utility](https://github.com/zsphereio/zstack-utility) | 用于安装、诊断、迁移和运维的工具集合 |
+| [zstack-utility](https://github.com/zsphereio/zstack-utility) | 安装、诊断、迁移和运维相关工具 |
 
 ## 路线图
 
-ZSphere 路线图用于展示后续项目计划、阶段性里程碑、功能跟踪和开源发布准备工作。
+ZSphere 路线图用于展示后续项目计划、阶段性里程碑、功能跟踪和开源发布准备情况。
 
 👉 [查看发布说明](https://github.com/zsphereio/zsphere/releases) | [查看路线图](https://github.com/zsphereio/zsphere/projects)
 
-## 项目治理
+## 治理
 
-ZSphere 采用轻量级开源治理模式，用于说明项目如何维护、如何决策，以及贡献者如何参与协作。
+ZSphere 采用轻量级开源治理模型，用于定义项目如何维护、如何决策，以及贡献者如何协作。
 
-[GOVERNANCE.md](GOVERNANCE.md) 是了解项目角色、维护者职责、决策流程、版本发布和社区协作方式的入口。
+[GOVERNANCE.md](GOVERNANCE.md) 是了解项目角色、维护者职责、决策流程、发布管理和社区协作方式的入口文档。
 
-随着社区发展，ZSphere 的治理模式可能逐步演进，引入维护者、工作组和更正式的项目流程。
+随着社区发展，治理模型可能会逐步演进，引入专门的维护者、工作组和更正式的项目流程。
 
 ## 参与贡献
 
@@ -91,7 +108,7 @@ ZSphere 采用轻量级开源治理模式，用于说明项目如何维护、如
 
 我们也会通过社区致谢、发布说明、贡献者列表或未来的社区计划，持续认可活跃贡献者的投入。
 
-贡献前请阅读：
+参与贡献前，请阅读：
 
 - [CONTRIBUTING.md](CONTRIBUTING.md)
 
@@ -99,8 +116,8 @@ ZSphere 采用轻量级开源治理模式，用于说明项目如何维护、如
 
 安全漏洞报告流程请参考 [SECURITY.md](SECURITY.md)。
 
-## 开源协议
+## 许可证
 
-ZSphere 采用 [GNU General Public License v3.0](LICENSE) 开源协议。
+ZSphere 基于 [GNU General Public License v3.0](LICENSE) 发布。
 
-部分仓库或组件可能包含不同许可证的第三方开源软件，请以各仓库中的 `LICENSE`、`NOTICE` 及相关文件为准。
+部分仓库或组件可能包含不同许可证的第三方开源软件。请以对应仓库中的 `LICENSE` 及相关文件为准。
