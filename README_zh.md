@@ -1,7 +1,7 @@
 <div align="center">
   <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="120">
 
-  <p><strong>面向私有云和企业虚拟化场景的新一代服务器虚拟化平台。</strong></p>
+  <p><strong>面向私有云和企业虚拟化场景的新一代服务器虚拟化平台</strong></p>
 
   <p>
     <a href="https://zsphere.aliyun.com/">官网</a> •
