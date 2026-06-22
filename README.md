@@ -1,7 +1,25 @@
-# ZSphere
+<div align="center">
+  <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="96">
 
-> English | [中文](README_zh.md)
+  <h1>ZSphere</h1>
 
+  <p><strong>Next-generation server virtualization platform for private cloud and enterprise virtualization.</strong></p>
+
+  <p>
+    <a href="https://zsphere.aliyun.com/">Website</a> •
+    <a href="https://www.zstack.io/help/zstack_zsphere">Documentation</a> •
+    <a href="#quick-start">Quick Start</a> •
+    <a href="#architecture">Architecture</a> •
+    <a href="#roadmap">Roadmap</a> •
+    <a href="#contributing">Contributing</a>
+  </p>
+
+  <p>
+    English | <a href="README_zh.md">简体中文</a>
+  </p>
+</div>
+
+## What is ZSphere
 ZSphere is a next-generation server virtualization platform for private cloud, server virtualization, and enterprise cloud management. Built on the principles of high performance, strong security, high reliability, and continuous innovation, it integrates server, network, and storage virtualization with intelligent operations capabilities to help organizations build and operate modern virtualization infrastructure.
 
 This repository is the main entry point for the ZSphere open-source project. It provides project overview, documentation links, repository index, contribution guidelines, roadmap, governance, and community resources.
