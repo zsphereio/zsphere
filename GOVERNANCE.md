@@ -2,7 +2,7 @@
 
 This document describes how the ZSphere project is governed, maintained, and developed.
 
-ZSphere is currently maintained as an open-source preview under the `zsphereio` organization. After review and approval, the project is expected to be published under the Alibaba GitHub organization.
+ZSphere is currently maintained as an open-source preview under the Alibaba organization.
 
 ## Goals
 
@@ -24,7 +24,6 @@ The project may include the following repositories:
 - `zstack`: core IaaS engine and cloud infrastructure foundation
 - `premium`: extension modules for enterprise operations and advanced scenarios
 - `zstack-utility`: installation, diagnostics, migration, and operations tools
-- `community`: community discussions, proposals, governance, and public resources
 
 Repository names, module boundaries, and release processes may be adjusted before the official open-source publication.
 
