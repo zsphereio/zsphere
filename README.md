@@ -49,9 +49,9 @@ The fastest way to evaluate ZSphere is to follow the quick start guide in the pr
 
 ## Installation
 
-The public installation guide is maintained in the ZSphere product documentation.
+The installation guide will cover environment preparation, deployment steps, node configuration, service startup, and installation verification to help users deploy a working ZSphere environment.
 
-- [Installation Guide](https://www.zstack.io/help/zstack_zsphere/user_guide/v5.0.0/1.html)
+- [Installation Guide](https://zsphere.aliyun.com/docs/installation/)
 
 ## VMware Migration Guide
 
