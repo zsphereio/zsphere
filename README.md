@@ -5,7 +5,7 @@
 
   <p>
     <a href="https://zsphere.aliyun.com/">Website</a> •
-    <a href="https://www.zstack.io/help/zstack_zsphere">Documentation</a> •
+    <a href="https://www.zstack.io/help/zstack_zsphere">Doc</a> •
     <a href="#quick-start">Quick Start</a> •
     <a href="#architecture">Architecture</a> •
     <a href="#roadmap">Roadmap</a> •
@@ -54,7 +54,8 @@ ZSphere emphasizes asynchronous execution, stateless services, plugin-based exte
 - **Cascade architecture**: Supports cascading operations across resources, suitable for resource creation, deletion, recycling, and dependency handling.
 - **Fully automated deployment**: Provides Ansible-based agentless automated deployment to reduce deployment and operations complexity.
 - **Full API query capability**: Supports unified querying of resources and their attributes, enabling automation, system integration, and upper-layer platform access.
-<img width="1400" height="1700" alt="image" src="https://github.com/user-attachments/assets/40fa8206-47e6-4da8-81e7-1139658672a5" />
+<img width="3500" height="4250" alt="zsphere-architecture-detailed" src="https://github.com/user-attachments/assets/ae344a61-5696-4827-94c5-e687981faf1c" />
+
 
 
 ## Quick Start
