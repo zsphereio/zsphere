@@ -49,8 +49,7 @@ At the software architecture level, ZSphere emphasizes asynchrony, statelessness
 - **Workflow engine**: manages the execution order of complex operations and supports rollback and recovery in failure scenarios.
 - **Tagging and query capabilities**: supports resource attribute extension, resource classification, unified queries, and automation orchestration.
 - **Automated deployment**: uses automation tools to handle deployment, configuration, and operations tasks, reducing deployment and maintenance complexity.
-<img width="3500" height="4250" alt="zsphere-architecture-detailed" src="https://github.com/user-attachments/assets/c627b35d-3fc4-4973-b40b-cbdb54c09ec2" />
-
+<img width="3500" height="4250" alt="zsphere-architecture-detailed" src="https://github.com/user-attachments/assets/847f23b4-9e68-45db-8359-7f472b9d103f" />
 
 
 ## Quick Start
