@@ -72,7 +72,7 @@ As enterprises reassess their virtualization strategies, migration from VMware t
 
 The ZSphere roadmap provides information about upcoming project work, planned milestones, feature tracking, and open-source release preparation.
 
-See [ROADMAP.md](ROADMAP.md) for the current roadmap.
+👉 [Read the Release Notes](https://github.com/zsphereio/zsphere/releases) | [View Roadmap](https://github.com/zsphereio/zsphere/projects)
 
 ## Governance
 
