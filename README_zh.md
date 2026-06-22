@@ -71,7 +71,7 @@ ZSphere 在软件架构上强调异步化、无状态化、插件化和自动化
 
 ZSphere 路线图用于展示后续项目计划、阶段性里程碑、功能跟踪和开源发布准备工作。
 
-当前路线图请参考 [ROADMAP.md](ROADMAP.md)。
+👉 [查看发布说明](https://github.com/zsphereio/zsphere/releases) | [查看路线图](https://github.com/zsphereio/zsphere/projects)
 
 ## 项目治理
 
