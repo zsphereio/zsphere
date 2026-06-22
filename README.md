@@ -1,7 +1,5 @@
 <div align="center">
-  <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="96">
-
-  <h1>ZSphere</h1>
+  <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="120">
 
   <p><strong>Next-generation server virtualization platform for private cloud and enterprise virtualization.</strong></p>
 
