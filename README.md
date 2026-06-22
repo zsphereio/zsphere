@@ -1,6 +1,5 @@
 <div align="center">
   <img src="ZSphere-logo.jpg" alt="ZSphere Logo" width="120">
-
   <h1>ZSphere</h1>
 
   <p><strong>Next-generation server virtualization platform for private cloud and enterprise virtualization.</strong></p>
@@ -103,11 +102,9 @@ As the community grows, the governance model may evolve to include dedicated mai
 
 ## Contributing
 
-We welcome and appreciate contributions from the community.
+We welcome and appreciate contributions from the community. Whether you are fixing bugs, improving documentation, proposing features, adding tests, or sharing deployment, migration, and operational practices, your contribution helps make ZSphere better.
 
-Whether you are fixing a bug, improving documentation, proposing a feature, sharing deployment experience, or helping others in the community, your contribution helps make ZSphere better for everyone.
-
-Good first issues, documentation improvements, test cases, migration guides, and operational best practices are all valuable contributions.
+If you are new to the project, you can start with documentation improvements, issue reports, test verification, migration experience, or community discussions. Developers are also welcome to contribute code improvements, tooling enhancements, and integrations.
 
 We may recognize active contributors through community acknowledgements, release notes, contributor lists, or future community programs.
 
