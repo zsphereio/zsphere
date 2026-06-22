@@ -84,7 +84,13 @@ As the community grows, the governance model may evolve to include dedicated mai
 
 ## Contributing
 
-We welcome contributions from users, developers, partners, and infrastructure teams.
+We welcome and appreciate contributions from the community.
+
+Whether you are fixing a bug, improving documentation, proposing a feature, sharing deployment experience, or helping others in the community, your contribution helps make ZSphere better for everyone.
+
+Good first issues, documentation improvements, test cases, migration guides, and operational best practices are all valuable contributions.
+
+We may recognize active contributors through community acknowledgements, release notes, contributor lists, or future community programs.
 
 Before contributing, please read:
 
