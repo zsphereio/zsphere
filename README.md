@@ -30,31 +30,25 @@ This repository is the main entry point for the ZSphere open-source project. It 
 
 ## Architecture
 
-ZSphere uses a modular architecture built around virtualization, resource management, extension modules, and operations tooling.
+ZSphere uses a modular architecture built around virtualization resource management, the management plane, extension services, and operational tooling.
 
-Core areas include:
+Core capabilities include:
 
 - **Compute virtualization**: host, cluster, virtual machine, image, and lifecycle management.
-- **Network virtualization**: virtual networking, network services, security groups, and related network capabilities.
+- **Network virtualization**: virtual networks, network services, security groups, VPC, load balancing, and related capabilities.
 - **Storage virtualization**: primary storage, backup storage, volumes, snapshots, and storage resource management.
 - **Management plane**: API framework, permission model, events, alarms, auditing, and system operations.
-- **Extension modules**: enterprise-oriented capabilities for operations, diagnostics, migration, disaster recovery, and advanced scenarios.
-- **Utilities and integrations**: installation tools, diagnostics tools, migration helpers, automation scripts, SDKs, and external integrations.
+- **Extension services**: capabilities for migration, disaster recovery, monitoring, quota management, access control, and enterprise operations.
+- **Tools and integrations**: installation tools, diagnostics tools, migration tools, automation scripts, agents, CLI, and external system integrations.
 
-Software Architecture:
+At the software architecture level, ZSphere emphasizes asynchrony, statelessness, extensibility, and automation:
 
-ZSphere emphasizes asynchronous execution, stateless services, plugin-based extension, and automation in its software architecture, improving system scalability, reliability, and maintainability.
-
-- **Fully asynchronous architecture**: Supports asynchronous messaging, asynchronous methods, and asynchronous HTTP calls to reduce blocking waits and improve system throughput.
-- **Stateless services**: Each request is processed independently without relying on the state of other requests, making service scaling, failure recovery, and horizontal expansion easier.
-- **Lock-free architecture**: Reduces dependency on centralized locks through mechanisms such as consistent hashing, improving concurrent processing capability.
-- **In-process microservices**: Decouples services within the same process to reduce module coupling while maintaining high execution efficiency.
-- **Fully plugin-based structure**: Uses a plugin mechanism to support horizontal extension of resource types, business capabilities, and integrations.
-- **Workflow engine**: Manages the execution order of complex operations and supports rollback and recovery in error scenarios.
-- **Tag system**: Extends resource attributes and business logic, making resource classification, querying, orchestration, and automation easier.
-- **Cascade architecture**: Supports cascading operations across resources, suitable for resource creation, deletion, recycling, and dependency handling.
-- **Fully automated deployment**: Provides Ansible-based agentless automated deployment to reduce deployment and operations complexity.
-- **Full API query capability**: Supports unified querying of resources and their attributes, enabling automation, system integration, and upper-layer platform access.
+- **Asynchronous architecture**: supports asynchronous messages, asynchronous methods, and asynchronous HTTP calls to reduce blocking and improve system throughput.
+- **Stateless services**: individual requests do not depend on state from other requests, making services easier to scale, recover, and operate.
+- **Plugin-based extensibility**: supports horizontal extension of resource types, business capabilities, and integration capabilities through plugins.
+- **Workflow engine**: manages the execution order of complex operations and supports rollback and recovery in failure scenarios.
+- **Tagging and query capabilities**: supports resource attribute extension, resource classification, unified queries, and automation orchestration.
+- **Automated deployment**: uses automation tools to handle deployment, configuration, and operations tasks, reducing deployment and maintenance complexity.
 <img width="3500" height="4250" alt="zsphere-architecture-detailed" src="https://github.com/user-attachments/assets/ae344a61-5696-4827-94c5-e687981faf1c" />
 
 
