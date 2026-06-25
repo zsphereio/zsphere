@@ -19,11 +19,17 @@ By participating in this project, you are expected to follow the project code of
 
 ## Contributor License Agreement
 
-Contributors may be required to sign a Contributor License Agreement (CLA) before their pull requests can be accepted.
+All external contributors are required to sign the ZSphere Contributor License Agreement (CLA) before their pull requests can be merged.
 
-The CLA process will follow the requirements of the project maintainer and the target open-source organization. If this project is published under the Alibaba GitHub organization, the CLA process may follow Alibaba open-source governance requirements.
+The CLA confirms that you have the right to submit the contribution and grants the project maintainer and its affiliated organizations the rights needed to use, modify, reproduce, distribute, sublicense, and relicense your contribution as part of ZSphere.
 
-Pull requests that require CLA verification may not be merged until the CLA check is completed.
+This authorization allows the contribution to be used in ZSphere open-source releases, commercial distributions, enterprise editions, hosted services, derivative works, and other project-maintained distributions.
+
+If you are contributing on behalf of your employer or another organization, your employer or organization may be required to sign a Corporate CLA.
+
+Pull requests from contributors who have not completed the required CLA check will not be merged.
+
+As ZSphere is hosted under the Alibaba GitHub organization, the CLA process follows Alibaba open-source governance requirements and the CLA verification process configured for this repository.
 
 ## Ways to Contribute
 
