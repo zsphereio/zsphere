@@ -1,0 +1,129 @@
+name: Build ZSV Bin
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: Git ref to build for all repositories
+        required: true
+        default: zsv_5.0.3_open
+      builder_image:
+        description: Prebuilt ZSV builder image
+        required: true
+        default: ghcr.io/zstackio/zstack-zsv-builder:5.0.3
+      build_target:
+        description: Ant build target
+        required: true
+        default: all-in-one
+        type: choice
+        options:
+          - all-in-one
+          - build-war
+  push:
+    branches:
+      - feature/oss-build
+      - zsv_5.0.3_open
+      - zsv_5.1.0_open
+
+jobs:
+  build-bin:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 240
+
+    permissions:
+      contents: read
+      packages: read
+
+    env:
+      SOURCE_REF: ${{ inputs.source_ref || github.ref_name }}
+      BUILDER_IMAGE: ${{ inputs.builder_image || 'ghcr.io/zstackio/zstack-zsv-builder:5.0.3' }}
+      BUILD_TARGET: ${{ inputs.build_target || 'all-in-one' }}
+      PRODUCT_NAME: ZStack-ZSphere
+      PRODUCT_BIN_NAME: ZStack-ZSphere-installer
+
+    steps:
+      - name: Checkout zstack-utility
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/zstack-utility
+          ref: ${{ env.SOURCE_REF }}
+          path: zstack-utility
+          token: ${{ secrets.CI_REPO_TOKEN || github.token }}
+
+      - name: Checkout zstack
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/zstack
+          ref: ${{ env.SOURCE_REF }}
+          path: zstack
+          token: ${{ secrets.CI_REPO_TOKEN || github.token }}
+
+      - name: Checkout premium
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/premium
+          ref: ${{ env.SOURCE_REF }}
+          path: premium
+          token: ${{ secrets.CI_REPO_TOKEN || github.token }}
+
+      - name: Checkout zstack-store
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/zstack-store
+          ref: ${{ env.SOURCE_REF }}
+          path: zstack-store
+          token: ${{ secrets.CI_REPO_TOKEN || github.token }}
+
+      - name: Checkout zstack-sharedblock
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/zstack-sharedblock
+          ref: ${{ env.SOURCE_REF }}
+          path: zstack-sharedblock
+          token: ${{ secrets.CI_REPO_TOKEN || github.token }}
+
+      - name: Checkout zstack-zwatch
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/zstack-zwatch
+          ref: ${{ env.SOURCE_REF }}
+          path: zstack-zwatch
+          token: ${{ secrets.CI_REPO_TOKEN || github.token }}
+
+      - name: Login to GHCR
+        if: ${{ startsWith(env.BUILDER_IMAGE, 'ghcr.io/') }}
+        run: |
+          echo "${{ secrets.GHCR_TOKEN || github.token }}" | docker login ghcr.io -u "${{ github.actor }}" --password-stdin
+
+      - name: Pull builder image
+        run: docker pull "${BUILDER_IMAGE}"
+
+      - name: Build package
+        env:
+          ZSV_BUILDER_IMAGE: ${{ env.BUILDER_IMAGE }}
+          BUILD_UI_WAR: 'false'
+        run: |
+          set -euo pipefail
+          bash zstack-utility/docker/run-zsv-docker-build.sh "${BUILD_TARGET}"
+
+      - name: List artifacts
+        if: always()
+        run: |
+          ls -lah zstack-utility/zstackbuild/target || true
+
+      - name: Upload installer bin
+        if: ${{ env.BUILD_TARGET == 'all-in-one' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: zsv-installer-bin
+          path: zstack-utility/zstackbuild/target/*.bin
+          if-no-files-found: error
+          retention-days: 14
+
+      - name: Upload war
+        uses: actions/upload-artifact@v4
+        with:
+          name: zstack-war
+          path: zstack-utility/zstackbuild/target/zstack.war
+          if-no-files-found: error
+          retention-days: 14
